@@ -2,7 +2,8 @@ package three
 
 import java.io.File
 import java.math.BigInteger
-fun Long.toBigInteger() = BigInteger.valueOf(this)
+
+
 
 fun main() {
     val input = File("src/main/kotlin/three/input.txt").readLines()
